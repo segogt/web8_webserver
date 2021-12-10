@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>I love github.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+			<div id="wrapper">
+					<section id="intro" class="main">
+						<span class="icon fa-rocket major"></span>
+						<h2>Easy Webhook</h2>
+                        <p>You can enter the url to test whether it is reachable!</p>
+                      <form id="hook" action="testhook.php">
+                        <p>
+                          <input type="text" name="handler" placeholder="http://127.0.0.1" style="width:100%" />
+                        </p>
+						<ul class="actions">
+                            <li><input type="submit" class="button big" value="Test URL!" /></li>
+						</ul>
+                      </form>
+					</section>
+
+					<section id="intro" class="main">
+						<span class="icon fa-eye major"></span>
+						<h2>See the result!</h2>
+						<p id="result" style="overflow: auto;max-height: 600px;white-space: pre-line; border: 1px black solid; border-radius: 5px;">Check how your handler responded; The result of your test will appear here</p>
+					</section>
+
+			</div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+	</body>
+</html>
